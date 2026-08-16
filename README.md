@@ -1,4 +1,4 @@
-# Plateau-Driven Dynamic Optimizer Staging for KANs (Reference Implementation)
+# Adaptive Optimizer Sequencing for Kolmogorov-Arnold Networks (Reference Implementation)
 
 > **Note:** This repository accompanies a paper that is not yet published.
 > Please do not make this repository public until the paper is officially
@@ -64,9 +64,12 @@ MAE × Time efficiency ratio (lower is better), along with R² and MAE
 ```
 Architecture   Rank Protocol                             R2             MAE    WallTime(s)   MAExTime
 ----------------------------------------------------------------------------------------------------
-Efficient-KAN     1 L-BFGS -> AdamW           0.8123+/-0.0050  0.312+/-0.010     1.8+/-0.3       0.56
+<architecture>    1 <protocol>                <mean>+/-<std>  <mean>+/-<std>  <mean>+/-<std>  <value>
 ...
 ```
+
+(Actual values depend on your seeds, time budget, and hardware -- run the
+script to generate a real table.)
 
 ## Notes on this reference implementation
 
