@@ -1,8 +1,5 @@
 # Adaptive Optimizer Sequencing for Kolmogorov-Arnold Networks (Reference Implementation)
 
-> **Note:** This repository accompanies a paper that is not yet published.
-> Please do not make this repository public until the paper is officially
-> online, and update the citation section below once it is.
 
 This repository is a **reference implementation** of the plateau-driven
 dynamic optimizer staging algorithm and the seven optimizer protocols
