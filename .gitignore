@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+results/*.csv
+results/*.pkl
+.ipynb_checkpoints/
+*.egg-info/
+.DS_Store
